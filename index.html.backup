@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tiyasha Sen - Senior Software Engineer specializing in Full-Stack Development, Cloud Technologies, and DevOps">
+    <title>Tiyasha Sen | Senior Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Tiyasha Sen</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Tiyasha Sen</span></h1>
+                <h2 class="hero-subtitle">AI Research Professional</h2>
+                <p class="hero-description">Specializing in Natural Language Processing, Machine Learning, and Computer Vision</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="TiyashaSen_Resume.pdf" download class="btn btn-secondary">Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:sen.tiy@northeastern.edu" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/tiyasha-sen" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/tiyashasen" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://scholar.google.com/citations?user=tiyashasen" target="_blank" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-img-wrapper">
+                    <img src="assets/profile.jpg" alt="Tiyasha Sen" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am an AI Research Professional with a strong foundation in <strong>Natural Language Processing</strong>, <strong>Machine Learning</strong>, and <strong>Computer Vision</strong>. Currently pursuing my Master's in Artificial Intelligence at Northeastern University, I have hands-on experience in developing and deploying cutting-edge AI solutions.</p>
+
+                    <p>My research interests include <strong>Large Language Models</strong>, <strong>Multimodal AI</strong>, <strong>Retrieval-Augmented Generation (RAG)</strong>, and <strong>AI Safety</strong>. I have worked on diverse projects ranging from building conversational AI systems to developing advanced computer vision models for real-world applications.</p>
+
+                    <p>With professional experience at <strong>Cognizant Technology Solutions</strong> and research contributions at <strong>Northeastern University</strong>, I am passionate about leveraging AI to solve complex problems and create meaningful impact.</p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Education</h3>
+                            <p>MS in Artificial Intelligence<br>Northeastern University</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-briefcase"></i>
+                            <h3>Experience</h3>
+                            <p>2+ Years in AI/ML<br>Research & Development</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-award"></i>
+                            <h3>Achievements</h3>
+                            <p>Published Research<br>Industry Recognition</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AI Research Co-op</h3>
+                            <span class="company">Northeastern University Khoury College of Computer Sciences</span>
+                            <span class="duration">Jan 2025 - Present | Boston, MA</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Developing advanced Retrieval-Augmented Generation (RAG) pipelines with LangGraph, optimizing context retrieval and response generation for enhanced accuracy and relevance</li>
+                            <li>Building multimodal AI models integrating text, images, and structured data for comprehensive document understanding</li>
+                            <li>Implementing fine-tuning strategies for large language models (LLMs) to improve domain-specific performance</li>
+                        </ul>
+                        <div class="tags">
+                            <span class="tag">LangChain</span>
+                            <span class="tag">LangGraph</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">LLMs</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Graduate Research Assistant</h3>
+                            <span class="company">Northeastern University</span>
+                            <span class="duration">Sep 2024 - Dec 2024 | Boston, MA</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Conducted comprehensive research on AI safety, with a focus on adversarial robustness and model interpretability</li>
+                            <li>Analyzed vulnerabilities in large language models and developed mitigation strategies for adversarial attacks</li>
+                            <li>Authored detailed reports on AI safety practices and contributed to academic publications</li>
+                        </ul>
+                        <div class="tags">
+                            <span class="tag">AI Safety</span>
+                            <span class="tag">LLMs</span>
+                            <span class="tag">Research</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Programmer Analyst</h3>
+                            <span class="company">Cognizant Technology Solutions</span>
+                            <span class="duration">Aug 2022 - Jul 2023 | Kolkata, India</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Built an advanced RAG-based conversational AI system using LangChain and Large Language Models, achieving 92% accuracy</li>
+                            <li>Designed and deployed production-ready NLP pipelines for intent recognition and entity extraction</li>
+                            <li>Developed computer vision models for object detection and image classification with 88% accuracy</li>
+                            <li>Implemented CI/CD pipelines using Docker and Jenkins for streamlined model deployment</li>
+                        </ul>
+                        <div class="tags">
+                            <span class="tag">LangChain</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Research Intern</h3>
+                            <span class="company">RKMVERI | Indian Statistical Institute Kolkata</span>
+                            <span class="duration">Jun 2021 - Jul 2022 | Kolkata, India</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Developed a sentiment analysis model for Bengali social media text using deep learning techniques</li>
+                            <li>Implemented LSTM and BERT-based architectures for emotion classification with 85% accuracy</li>
+                            <li>Published research findings in an international conference proceeding</li>
+                        </ul>
+                        <div class="tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">BERT</span>
+                            <span class="tag">Sentiment Analysis</span>
+                            <span class="tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI/ML Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">OpenCV</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> NLP & LLMs</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">BERT</span>
+                        <span class="skill-tag">GPT</span>
+                        <span class="skill-tag">spaCy</span>
+                        <span class="skill-tag">NLTK</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-eye"></i> Computer Vision</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">YOLO</span>
+                        <span class="skill-tag">Faster R-CNN</span>
+                        <span class="skill-tag">Mask R-CNN</span>
+                        <span class="skill-tag">ResNet</span>
+                        <span class="skill-tag">VGG</span>
+                        <span class="skill-tag">OpenCV</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">MLflow</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Data & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+                <button class="filter-btn" data-filter="cv">Computer Vision</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="nlp">
+                    <div class="project-image">
+                        <img src="assets/rag-chatbot.jpg" alt="RAG Chatbot">
+                    </div>
+                    <div class="project-content">
+                        <h3>RAG-based Conversational AI</h3>
+                        <p>Built an advanced RAG system using LangChain and LLMs for context-aware conversations with 92% accuracy. Integrated vector databases for efficient retrieval.</p>
+                        <div class="project-tags">
+                            <span class="tag">LangChain</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">LLMs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="nlp">
+                    <div class="project-image">
+                        <img src="assets/sentiment-analysis.jpg" alt="Sentiment Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Bengali Sentiment Analysis</h3>
+                        <p>Developed LSTM and BERT-based models for sentiment classification of Bengali social media text, achieving 85% accuracy. Published in international conference.</p>
+                        <div class="project-tags">
+                            <span class="tag">BERT</span>
+                            <span class="tag">LSTM</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">PyTorch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-file-pdf"></i> Paper</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="cv">
+                    <div class="project-image">
+                        <img src="assets/object-detection.jpg" alt="Object Detection">
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-time Object Detection</h3>
+                        <p>Implemented YOLO and Faster R-CNN models for real-time object detection in video streams, achieving 88% mAP on custom dataset.</p>
+                        <div class="project-tags">
+                            <span class="tag">YOLO</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <img src="assets/recommendation.jpg" alt="Recommendation System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Personalized Recommendation Engine</h3>
+                        <p>Built a hybrid recommendation system combining collaborative filtering and content-based approaches for personalized suggestions.</p>
+                        <div class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="nlp">
+                    <div class="project-image">
+                        <img src="assets/text-summarization.jpg" alt="Text Summarization">
+                    </div>
+                    <div class="project-content">
+                        <h3>Abstractive Text Summarization</h3>
+                        <p>Developed a transformer-based model for generating concise summaries of long documents using BART and T5 architectures.</p>
+                        <div class="project-tags">
+                            <span class="tag">Transformers</span>
+                            <span class="tag">BART</span>
+                            <span class="tag">Hugging Face</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="cv">
+                    <div class="project-image">
+                        <img src="assets/image-segmentation.jpg" alt="Image Segmentation">
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Image Segmentation</h3>
+                        <p>Implemented U-Net and Mask R-CNN for automated segmentation of medical images, assisting in diagnostic applications.</p>
+                        <div class="project-tags">
+                            <span class="tag">U-Net</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Healthcare</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications & Research</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="publication-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="publication-content">
+                        <h3>Sentiment Analysis of Bengali Social Media Text using Deep Learning</h3>
+                        <p class="publication-meta">International Conference Proceedings | 2022</p>
+                        <p class="publication-description">Developed and evaluated deep learning models (LSTM, BERT) for sentiment classification of Bengali social media content. Achieved 85% accuracy and contributed to low-resource language NLP research.</p>
+                        <div class="publication-links">
+                            <a href="#" class="pub-link"><i class="fas fa-link"></i> Paper</a>
+                            <a href="#" class="pub-link"><i class="fas fa-quote-right"></i> Cite</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="publication-content">
+                        <h3>Research Contributions in AI Safety</h3>
+                        <p class="publication-meta">Northeastern University | 2024</p>
+                        <p class="publication-description">Comprehensive analysis of adversarial robustness and interpretability in large language models. Developed mitigation strategies for adversarial attacks on AI systems.</p>
+                        <div class="publication-links">
+                            <a href="#" class="pub-link"><i class="fas fa-link"></i> Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-description">I'm always open to discussing new opportunities, collaborations, or research projects. Feel free to reach out!</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:sen.tiy@northeastern.edu">sen.tiy@northeastern.edu</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Boston, MA</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <div>
+                                <h4>Institution</h4>
+                                <p>Northeastern University</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Connect with me</h4>
+                        <div class="social-links-large">
+                            <a href="https://www.linkedin.com/in/tiyasha-sen" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/tiyashasen" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=tiyashasen" target="_blank" aria-label="Google Scholar">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Google Scholar</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Tiyasha Sen. All rights reserved.</p>
+            <p>Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
