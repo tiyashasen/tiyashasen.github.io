@@ -1141,4 +1141,16 @@ body {
         width: 100%;
         justify-content: center;
     }
+
+    .contact-details {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
 }
